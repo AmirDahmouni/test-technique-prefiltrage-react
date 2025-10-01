@@ -1,16 +1,16 @@
 export const intents = {
   "page-a": {
-    "address-form": { "default": "16 RUE DE LA VILLE LEVEQUE 75008 PARIS" },
-    "button": { "label": "Envoyer" }
+    "address-form": { default: "16 RUE DE LA VILLE LEVEQUE 75008 PARIS" },
+    button: { label: "Envoyer" }
   },
 
   "page-b": {
-    "accept-cgu": {"label": "J’accepte les CGU"},
+    "accept-cgu": {label: "J’accepte les CGU"},
     "address-form": {
-      "default": "16 RUE DE LA VILLE LEVEQUE 75008 PARIS",
+      default: "16 RUE DE LA VILLE LEVEQUE 75008 PARIS",
       "visible-if": {"accept-cgu": true}
     },
-    "button": {"label": "Envoyer"}
+    button: {label: "Envoyer"}
   }
 };
 
